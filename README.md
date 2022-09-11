@@ -1,11 +1,6 @@
-# Team Members #
-- Saeed Kokash (TL)
-- Omar Qattam
-- Ali Mohammad
-- Bashar Al-Zrigat
-- Firas Yacoup
-- Bayan Al-Jawawdeh
-- Shaima Al-Khateeb
+# Live Demo : https://631dcd86e699f51961d517ad--neon-cocada-b7e60d.netlify.app
+
+# Handify-App
 
 # Applicaiton Idea #
 
@@ -14,4 +9,3 @@ Our Application idea is to create an application where small businesses and upco
 # Presentation #
 
 [Presentation Link](https://docs.google.com/presentation/d/1cgw91gsm0qrtlszBNoNFHQpgezaBNBD4eTJ_-zvhq9k/edit?usp=sharing)
-# Handify-App
