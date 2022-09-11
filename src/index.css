@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navBar {
+height: 8rem;
+display: flex;
+}
+
+.nav-link {
+  font-size: 21px !important;
+  font-weight: bold !important;
+  color: #576F72 !important;
+  text-decoration: none !important;
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.navBarContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: sticky !important;
+  top: 0 !important;
+} 
+
+.logoImg {
+  /* height: 180px; */
+  width: 300px;
+}
+
+.contactForm {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  align-items: center;
+  background-color: white;
+}
+
+.contactTxt {
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+color: #576F72;
+}
+
+.cartBtn {
+  margin-left: 10px;
+  background-color: #576F72 !important;
+}
+
+.cartBtnAdd {
+  margin-left: 10px;
+  background-color: #576F72 !important;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.social{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex ;
+  flex-direction:column;
+  align-items: center; 
+ }
+
+ .footerItems{
+  display: flex;
+  align-items: center;
+  margin-top: 20px !important;
+
+ }
+
+ .footerLogo{
+  width: 200px;
+  margin-bottom: -20px;
+ }
+
+ .footerlogotext{
+  padding-bottom: 25px !important;
+ }

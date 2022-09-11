@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap');
+.outterWelcoming{
+    text-align: -webkit-left !important;
+    font-family: 'Dosis', sans-serif;
+}
+
+.outterWelcoming::after{
+    font-family: 'Dosis', sans-serif;
+    color: #7D9D9C;
+    content: "Handify";
+    animation: change-content 1.5s ease-in-out forwards infinite alternate ;
+}
+
+@keyframes change-content {
+    0%{
+        content: "";
+    }
+    9%{
+        content: "H";
+    }
+    18%{
+        content: "Ha";
+    }
+    27%{
+        content: "Han";
+    }
+    36%{
+        content: "Hand";
+    }
+    45%{
+        content: "Handi";
+    }
+    54%{
+        content: "Handif";
+    }
+    63%{
+        content: "Handify";
+    }
+    72%{
+        content: "Handify!";
+    }
+    81%{
+        content: "Handify!";
+    }
+    90%{
+        content: "Handify!";
+    }
+    100%{
+        content: "Handify!";
+    }
+}
+
+.secondOutter{
+    text-align: -webkit-left !important;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 2rem;
+}
+
+.firstP{
+    font-weight: 600;
+    padding-left: 2rem;
+}
+
+.sencondP{
+    font-weight: 600;
+    padding-left: 4rem;
+}
+
+.coverContainer{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.homeCoverImg{
+    width: 30%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  .swiper-container {
+    width: 200px
+    }
+
+  .mySwiper{
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+  }
+
+
+  .hr{
+    color:#7D9D9C;
+  }
+
+  .sectionHeader{
+    font-family: 'Dosis', sans-serif;
+    padding-left: 2rem;
+  }
+
+  .sectionTwo{
+    font-family: 'Dosis', sans-serif;
+    background-color: #E4DCCF;
+    text-align: center;
+  }
+
+  .sectionTwo h2{
+    font-family: 'Dosis', sans-serif;
+}
+
+  .serviceContainter{
+    margin: 0 auto;
+    width: 90%;
+    height: 370px;
+  }
+
+  .serviceImg{
+    width: 20%;
+    margin-bottom: 1.2rem;
+  }
+
+  .oneServiceContainer{
+    width:33%
+  }
+
+  .productsCards{
+    width: auto;
+  }
+
+  .productsContainer{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 100px;
+  }
+
+  .allcard{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+ 
+  .allcardbody{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 17px;
+    /* box-shadow: 0px 0px 10px #000000; */
+  }
+
+  .card-img{
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 20px;
+  }
+
+
+  .cartBtn{
+    border:none
+  }
+
+  .cartBtn:hover{
+    color: #4f4f4f !important;
+    background-color: #7D9D9C !important;
+  }
+
+  .searchContainer{
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .profileButtons{
+    display: flex;
+    width: 70%;
+    margin-left: 13%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+  }

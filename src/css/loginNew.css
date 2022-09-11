@@ -1,0 +1,30 @@
+.login-btns{
+    color: #e8e8e8 !important;
+    background-color: #576F72 !important;
+}
+
+.login-btns:hover{
+    color: #4f4f4f !important;
+    background-color: #7D9D9C !important;
+}
+
+.loginSvg{
+    border: solid 1px #bdbdbd;
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    border-right: solid 1px #bdbdbd;
+    font-size: 35px;
+    padding: 6px;
+    color:#7D9D9C
+}
+
+.loginInput{
+    border-left: none !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.login-body{
+    background-color:#F0EBE3 ;
+}
+

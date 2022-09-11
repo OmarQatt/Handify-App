@@ -1,0 +1,13 @@
+.register-btns{
+    color: #e8e8e8 !important;
+    background-color: #576F72 !important;
+}
+
+.register-btns:hover{
+    color: #4f4f4f !important;
+    background-color: #7D9D9C !important;
+}
+
+.register-body{
+    background-color:#F0EBE3 ;
+}

@@ -1,0 +1,25 @@
+.cart-body{
+    background-color: #F0EBE3;
+}
+
+.cartTitle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #576F72 !important;
+    font-size: 40px;
+}
+
+.cartItem {
+    background-color:  #7D9D9C !important;
+}
+
+.box {
+    box-shadow: 10 10 0 #F0EBE3;
+   /* -webkit-transition:  box-shadow .2s ease-out; */
+}
+
+.cartCart {
+    background-color: #F0EBE3 !important;
+    /* color: #F0EBE3 !important; */
+}

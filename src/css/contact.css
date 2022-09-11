@@ -1,0 +1,55 @@
+.contactHeader{
+    text-align: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #576F72;
+}
+
+.contactContainer{
+    margin: 0 auto;
+    width: 70%;
+    border: #576F72 1px solid;
+    margin-top: -50px;
+    background-color: #F0EBE3;
+    padding: 50px;
+    border-radius: 5px;
+    /* filter: opacity(.9); */
+    box-shadow: 0px 0px 10px #576F72;
+}
+
+.contactForm{
+ height: 500px;
+ width: 100%;
+ margin-bottom: 0;
+ border-radius: 15px ;
+}
+
+.contactBodyContainer{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contactLogoImg{
+    width:15%
+}
+
+.mapImg{
+    border-radius: 15px;
+}
+
+.contactUsImg{
+    height: 500px;
+    box-shadow: 0px 0px 10px #576F72;
+
+    /* filter: blur(3px); */
+
+    /* width: 100%; */
+
+}
+
+.contact{
+    background-color:#F0EBE3 ;
+    display: flex;
+    flex-direction: column;
+
+}
